@@ -1,0 +1,13 @@
+server:
+  port: 11027
+  contextPath: /ciserver
+  session:
+    timeout: 1800
+spring:
+  application:
+    name: ciserver
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:1111/eureka/
+
